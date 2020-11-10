@@ -1,0 +1,56 @@
+.header {
+    background-color: $color-header;
+    position: sticky;
+    top: 0;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    &__marca {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    &__texto-marca {
+        font-family: $font-family-lato;
+        font-weight: $font-900;
+        font-size: 3rem;
+    }
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+    &__list {
+        flex: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+    }
+
+    &__item {
+        padding: 0.6em 0 0.6em 0;
+        font-family: $font-family-lato;
+        font-weight: $font-400;
+        font-size: 1.8rem;
+
+    }
+
+    &__item:hover {
+        border-radius: 5px;
+        background-color: white;
+    }
+
+}

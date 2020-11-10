@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <script src="https://www.google.com/recaptcha/api.js"
+            async
+            defer></script>
+    <link rel="stylesheet"
+          href="../css/main.css">
+    <title>Contacto</title>
+  </head>
+
+  <body>
+    <div class="main-page">
+      <header class="header">
+        <div class="header__logo">
+          <a class="header__logo-ancla"
+             href="index.html">
+            <img class="header__logo-image"
+                 src="../assets/CAYSIPNG.png"
+                 alt="Logo de Caysi"
+                 width="200"
+                 height="88">
+
+          </a>
+        </div>
+        <div class="header__marca">
+          <h2 class="header__texto-marca"><a href="../index.html">Montajes Industriales</a></h2>
+        </div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a class="menu__item-ancla"
+                 href="../index.html">Inicio</a></li>
+            <li class="menu__item"><a class="menu__item-ancla"
+                 href="presentacion.html">Somos</a></li>
+            <li class="menu__item"><a class="menu__item-ancla"
+                 href="servicios.html">Hacemos</a></li>
+            <li class="menu__item"><a class="menu__item-ancla"
+                 href="clientes.html">Clientes</a></li>
+            <li class="menu__item"><a class="menu__item-ancla"
+                 href="contacto.html">Contactanos</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="body">
+        <section>
+          <article class="contacto">
+            <h1 class="headingColor">Contactenos</h1>
+            <div class="image">
+
+            </div>
+            <div class="form">
+              <form action="#"
+                    method="get">
+
+                <fieldset>
+                  <legend>Datos</legend>
+                  <div class="row">
+                    <label>
+                      Nombre y Apellido
+                      <input type="text"
+                             placeholder="Ingrese su nombre y Apellido"
+                             required>
+                    </label>
+                    <div class="row">
+                      <label>
+                        Empresa
+                        <input type="text"
+                               placeholder="Ingrese su Empresa">
+                      </label>
+                      <div class="row">
+                        <label>
+                          Cargo
+                          <input type="text"
+                                 placeholder="Ingrese su Cargo">
+                        </label>
+                        <div class="row">
+                          <label>
+                            E-mail
+                            <input type="email"
+                                   placeholder="Ingrese su e-mail"
+                                   required>
+                          </label>
+                          <div class="row">
+                            <label>
+                              Teléfono
+                              <input type="tel"
+                                     placeholder="Ingrese su nro de Tel/Cel">
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+
+                <fieldset>
+                  <legend>Producto/Servicio de interés</legend>
+                  <div class="producto">
+                    <div class="row">
+                      <label>
+                        Sinfines
+                        <input type="checkbox"
+                               name="sinfin">
+                      </label>
+                    </div>
+
+                    <div class="row">
+                      <label>
+                        Silos
+                        <input type="checkbox"
+                               name="silo">
+                      </label>
+                    </div>
+
+                    <div class="row">
+                      <label>
+                        Redler
+                        <input type="checkbox"
+                               name="redler">
+                      </label>
+                    </div>
+
+                  </div>
+                </fieldset>
+
+                <fieldset>
+                  <legend>Como nos conoció?</legend>
+                  <div class="row">
+                    <label>
+                      Seleccione como nos conocio
+                      <select name="conocio">
+                        <optgroup label="Redes Sociales">
+                          <option value="face"> Facebook</option>
+                          <option value="twi"> Twitter</option>
+                          <option value="inst"> Instagram</option>
+                        </optgroup>
+
+                        <optgroup label="Referecias de Clientes">
+                          <option value="si"> Si</option>
+                          <option value="no"> No</option>
+                        </optgroup>
+
+                        <optgroup label="Publicidad">
+                          <option value="radio">Radio</option>
+                          <option value="tele">Televisión</option>
+                          <option value="diario">Diario</option>
+                        </optgroup>
+                      </select>
+                    </label>
+                  </div>
+
+                </fieldset>
+                <fieldset>
+                  <div class="row">
+                    <legend>Escriba su consulta</legend>
+                    <textarea name="consulta"
+                              cols="30"
+                              rows="10"
+                              placeholder="Escriba aquí su consulta">
+                </textarea>
+                  </div>
+                  <div class="row">
+                    <label>
+                      Desea recibir información???
+                      <label>
+                        <input type="checkbox"
+                               name="informacion"
+                               value="1"> Si
+                      </label>
+                      <label>
+                        <input type="checkbox"
+                               name="informacion"
+                               value="0">No
+                      </label>
+                    </label>
+                  </div>
+
+
+                </fieldset>
+
+                <div class="g-recaptcha"
+                     data-sitekey="6LeofM4ZAAAAAI_45NybLz-qIbWag_YeLILHUV6O"></div>
+                <input type="submit"
+                       value="Enviar Datos">
+                <input type="reset"
+                       value="Limpiar Datos">
+              </form>
+            </div>
+          </article>
+          <article class="datosContacto">
+
+          </article>
+        </section>
+
+      </main>
+
+      <footer class="footer">
+
+        <div class="social-network">
+          <ul class="social-network__list">
+            <li class="social-network__item"> <a class="social-network__item-ancla"
+                 href="#"
+                 target="_blank"
+                 rel="noopener noreferrer"><img src="../assets/simboloFace.png"
+                     height="30"
+                     width="30"
+                     alt=""
+                     srcset=""></a> </li>
+            <li class="social-network__item"> <a class="social-network__item-ancla"
+                 href="#"
+                 target="_blank"
+                 rel="noopener noreferrer"><img src="../assets/instagram.png"
+                     height="30"
+                     width="30"
+                     alt=""
+                     srcset=""></a> </li>
+            <li class="social-network__item"> <a class="social-network__item-ancla"
+                 href="#"
+                 target="_blank"
+                 rel="noopener noreferrer"><img src="../assets/simboloTwitter.png"
+                     height="30"
+                     width="30"
+                     alt=""
+                     srcset=""></a> </li>
+          </ul>
+        </div>
+
+        <address class="address">
+          <ul class="address__list">
+            <li class="address__item"> <a class="address__item-ancla"
+                 href="mailto:silvio.zabala@gmail.com">Email</a> </li>
+            <li class="addres__item"> <a class="address__item-ancla"
+                 href="tel:3534239520">Teléfono</a> </li>
+          </ul>
+        </address>
+
+      </footer>
+    </div>
+  </body>
+
+</html>

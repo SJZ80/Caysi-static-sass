@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.body {
+    background-color: $color-body;
+    min-height: 100vh;
+}
+
+.footer {
+    background: $color-footer;
+}
+
+.main-page {
+    display: grid;
+    grid-template-rows: 1fr auto 0.8fr;
+
+
+}

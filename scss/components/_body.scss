@@ -1,0 +1,62 @@
+.body {
+
+    &__image-portada {
+        height: 35vh;
+        background-image: url(../assets/fondoPresentacion.jpg);
+    }
+
+}
+
+.article-section-body {
+    margin: 0 1rem;
+
+    &__title {
+        padding-top: 1.8rem;
+        font-family: $font-family-courier;
+        font-weight: $font-700;
+        font-size: 2.5rem;
+    }
+
+    &__description {
+        padding-top: 1rem;
+        font-family: $font-family-courier;
+        font-weight: $font-400;
+        font-size: 1.5rem;
+
+    }
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+.card {
+    max-width: 300px;
+
+
+
+    &__text-title {
+
+        font-family: $font-family-courier;
+        font-weight: $font-400;
+        font-size: 2rem;
+
+    }
+
+    &__text-description {
+
+        font-family: $font-family-courier;
+        font-weight: $font-400;
+        font-size: 1.5rem;
+
+    }
+
+    &__image-image {
+
+        border-radius: .8em;
+
+    }
+}

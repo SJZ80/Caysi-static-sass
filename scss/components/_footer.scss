@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    font-size: 1.5rem;
+}
+
+.social-network {
+    margin: 0 1rem;
+    flex: 1;
+
+    &__list {
+        display: flex;
+        gap: 2rem;
+
+    }
+
+}
+
+.address {
+    flex: 1;
+
+    &__list {
+        display: flex;
+        justify-content: flex-end;
+        gap: 2rem;
+    }
+
+    &__item-ancla[href^="tel"]::before {
+        content: "📞  ";
+    }
+
+    &__item-ancla[href^="mail"]::before {
+        content: "📧  ";
+    }
+
+}
